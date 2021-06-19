@@ -37,5 +37,5 @@ app.get('/', (req,res) => {
 require('./app/routes/note-route')(app);
 
 app.listen(port, () => {
-    console.log(`Server is Listeninig on Port ${port}`);
+    console.log(`Server is listening on Port ${port}`);
 });
